@@ -1,0 +1,33 @@
+* {
+	box-sizing: border-box;
+}
+
+.wrapper {
+	 min-height: 100vh;
+	 position: relative;
+	 padding-bottom: 50px;
+}
+
+.footer {
+	position: absolute;
+	background: #193a6a;
+	height: 50px;
+	width: 100vw;
+	bottom: 0;
+	left: 0;
+}
+
+body {
+	background: #cfcfcf;
+}
+.content {
+	background: #ae001d;
+	height: 200px;
+}
+
+.content, .footer {
+	color: rgba(255, 255, 255, .9);
+	padding: 10px;
+	font-family: monospace;
+	font-size: 1.125rem;
+}
